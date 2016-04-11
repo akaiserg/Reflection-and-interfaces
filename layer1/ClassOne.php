@@ -17,8 +17,7 @@ class ClassOne  implements IClassOne{
     }
 
     public function returnTextDependencyLayer0(){
-
-        echo  "..._".$this->oClassOne->returnText();
+      
         return $this->oClassOne->returnText();
 
     }
